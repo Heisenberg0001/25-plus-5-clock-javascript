@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>25 + 5 Clock</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="container">
+        <h1 class="title">25 + 5 Clock</h1>
+        <section class="define-length">
+            <div class="break-length">
+                <h3 id="break-label">Break Length</h3>
+                <div class="break-btns">
+                    <button id="break-decrement">
+                        <i class="fa fa-arrow-down fa-2x"></i>
+                    </button>
+                    <p id="break-length"></p>
+                    <button id="break-increment">
+                        <i class="fa fa-arrow-up fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="session-length">
+                <h3 id="session-label">Session Length</h3>
+                <div class="session-btns">
+                    <button id="session-decrement">
+                        <i class="fa fa-arrow-down fa-2x"></i>
+                    </button>
+                    <p id="session-length"></p>
+                    <button id="session-increment">
+                        <i class="fa fa-arrow-up fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="info-dashboard">
+            <div class="timer-container">
+                <h3 id="timer-label">Session</h3>
+                <div id="time-left">24:55</div>
+            </div>
+            <div class="timer-controls">
+                <button id="start_stop">
+                    <i class="fa fa-play fa-2x"></i>
+                    <i class="fa fa-pause fa-2x"></i>
+                </button>
+                <button id="reset">
+                    <i class="fa fa-refresh fa-2x"></i>
+                </button>
+            </div>
+        </section>
+        <audio src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav" id="beep"></audio>
+        <section class="author">
+            <p>Designed and Coded by</p>
+            <a href="https://codepen.io/george-chlaidze" target="_blank">George Chlaidze</a>
+        </section>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
